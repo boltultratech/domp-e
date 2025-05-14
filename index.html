@@ -1,5 +1,118 @@
----
-layout: default
-title: Landing Page
-subTitle: A Template by Start Bootstrap
----
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domp-e | Dompet Digital Rakyat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #facc15;
+    }
+    nav img {
+      height: 40px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover no-repeat;
+      height: 80vh;
+      color: #fff;
+      text-align: center;
+      flex-direction: column;
+      padding: 0 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+    .hero a {
+      background: #000;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      background: #f5f5f5;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Wallet_Flat_Icon.svg/512px-Wallet_Flat_Icon.svg.png" alt="Domp-e">
+    </div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <h1>Domp-e</h1>
+    <p>Dompet Digital Rakyat. Solusi pembayaran cepat, aman, dan tanpa ribet — untuk semua kalangan.</p>
+    <a href="#">Join Waiting List</a>
+  </div>
+
+  <section id="about">
+    <h2>About Domp-e</h2>
+    <p>Domp-e adalah platform dompet digital yang diciptakan oleh PT. BUG (Bolt Ultratech Genuine). Fokus pada inklusi keuangan dan sistem pembayaran modern berbasis teknologi.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Top-up, Transfer, QRIS, Tagihan, dan banyak lagi. Terintegrasi dengan sistem white-label DOKU.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@dompe.tech | WhatsApp: 08xx-xxxx-xxxx</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Domp-e. A product of PT. Bolt Ultratech Genuine.
+  </footer>
+</body>
+</html>
